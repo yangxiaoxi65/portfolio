@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender Website</title>
+    <link rel="stylesheet" href="case_study2.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <header>
+        <h2 id="name">Xiaoxi Yang</h2>
+        <nav>
+            <ul class="header-links">
+                <li><a class="link" href="index.html">About</a></li>
+                <li><a class="link-current" href="projects.html">Projects</a></li>
+                <li><a class="link" href="files/resume.pdf">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <main>
+            <div id="title">
+                <h1>Movie Recommender Website</h1>
+                <p>Individual Project</p>
+            </div>
+            <section id="intro">
+            <h2>Project Overview</h2>
+            <p>The Movie Recommender is a web application that allows users to discover, filter, sort, and save their favorite movies. It provides a user-friendly interface for movie enthusiasts to find movies based on their preferences and explore new titles.</p>
+            </section>
+
+            <section id="competitive-analysis">
+            <h2>Competitive Analysis</h2>
+            <p>To inform the design and functionality of the Movie Recommender, a competitive analysis was conducted on three popular movie websites: <a href="https://www.imdb.com/" target="_blank">IMDb</a>, <a href="https://www.rottentomatoes.com/" target="_blank">Rotten Tomatoes</a>, and <a href="https://www.metacritic.com/" target="_blank">Metacritic</a>. The analysis focused on several key aspects:</p>
+            
+            <ul>
+                <li><strong>Filtering Options:</strong> Allow users to filter movies based on genre, release year, or rating.</li>
+                <li><strong>Sorting Capabilities:</strong> Enable users to sort movies by release date, rating, or popularity.</li>
+                <li><strong>User Experience:</strong> Interface should be intuitive, with clear navigation and logical information layout.</li>
+                <li><strong>Movie Information Presentation:</strong> Provide detailed and easy-to-understand information, such as plot summary, cast list, and ratings.</li>
+                <li><strong>Social Features:</strong> Allow users to interact and share information via reviews, ratings, and social media.</li>
+            </ul>
+
+            <table>
+                <thead>
+                <tr>
+                    <th>Factor</th>
+                    <th><a href="https://www.imdb.com/" target="_blank">IMDb</a></th>
+                    <th><a href="https://www.rottentomatoes.com/" target="_blank">Rotten Tomatoes</a></th>
+                    <th><a href="https://www.metacritic.com/" target="_blank">Metacritic</a></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Filtering Options</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                    <td>&#10006;</td>
+                </tr>
+                <tr>
+                    <td>Sorting Capabilities</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                </tr>
+                <tr>
+                    <td>User Experience</td>
+                    <td>&#10006;</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                </tr>
+                <tr>
+                    <td>Movie Information Presentation</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                    <td>&#10004;</td>
+                </tr>
+                <tr>
+                    <td>Social Features</td>
+                    <td>&#10004;</td>
+                    <td>&#10004;</td>
+                    <td>&#10006;</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <p>Based on the analysis, several key insights were gained:</p>
+            <ul>
+                <li>IMDb excels in providing comprehensive filtering options, detailed movie information, and social features but could improve its user experience due to an overwhelming interface for some users.</li>
+                <li>Rotten Tomatoes offers a clean and intuitive user interface with effective sorting capabilities and social features but lacks in-depth movie information.</li>
+                <li>Metacritic provides detailed movie information and reviews but falls short in filtering options, social features, and overall user experience.</li>
+            </ul>
+            <p>These insights were incorporated into the design and development of the Movie Recommender application, aiming to combine the strengths of each website while addressing their weaknesses.</p>
+            </section>
+
+            <section id="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Filter movies by genre and release year</li>
+                <img id="img_1" src="images/case2/1.png" alt="Movie Filter">
+                <li>Sort movies by rating</li>
+                <img src="images/case2/2.png" alt="Sort MMvies">
+                <li>Add movies to favorites list</li>
+                <img src="images/case2/3.png" alt="Add movie to favorites">
+                <li>Remove movies from favorites list</li>
+                <img src="images/case2/4.png" alt="Remove movies from favorite">
+                <li>Display total count of favorite movies</li>
+                <img id="img_5" src="images/case2/5.png" alt="Total count of favorite movies">
+                <li>Reset filters and sorting</li>
+                <img id="img_6" src="images/case2/6.png" alt="Reset" >
+            </ul>
+            </section>
+
+            <section id="demo">
+            <h2>Live Demo</h2>
+            <p>Experience the Movie Recommender application live by visiting the deployed website:</p>
+            <a href="https://movie-recommender-tau.vercel.app/" target="_blank">https://movie-recommender-tau.vercel.app/</a> 
+                <section id="image">
+                    <img src="images/case2/movie-recommender-screenshot.png" alt="Movie Recommender Screenshot">
+                </section>
+            </section>
+
+            <section id="reflection">
+            <h2>Learnings</h2>
+            <p>Developing the Movie Recommender application was a valuable learning experience. It provided an opportunity to apply the concepts of filtering, sorting, and aggregation in a practical context. The project also reinforced the importance of user-centric design, focusing on creating an intuitive and visually appealing interface.</p>
+            <p>One of the challenges encountered during the development process was ensuring the compatibility and smooth interaction between different filtering and sorting options. Careful planning and testing were crucial to achieve a seamless user experience.</p>
+            <p>The competitive analysis conducted prior to the development helped in identifying key features and best practices in movie recommendation websites. Incorporating these insights into the Movie Recommender application enhanced its functionality and usability.</p>
+            <p>Overall, the Movie Recommender project demonstrated the power of combining front-end development skills with design principles to create an engaging and user-friendly application. It serves as a foundation for further exploration and potential enhancements in the future.</p>
+            </section>
+        </main>
+        </body>
+        </html>

@@ -1,0 +1,54 @@
+/* 特定项目页面样式 */
+.project-container {
+    margin-top: 5rem;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 4rem 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-item {
+    background-color: #ffffff;
+    width: 300px;
+    height: 500px;
+    border-radius: 5%;
+    border: 2.5px solid #34495e;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-item:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    border: 4px solid #34495e;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-item-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #34495e;
+    border-radius: 5%;
+}
+
+.project-item-header {
+    color: #000000;
+    font-size: 1.2rem;
+    margin: 15px 0 5px 15px;
+}
+
+.project-item-subtitle, .project-item-tool {
+    color: #494949;
+    margin-left: 15px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.project-item {
+    text-decoration: none;
+  }
